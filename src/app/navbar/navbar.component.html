@@ -5,21 +5,19 @@
     [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">
 
     <!-- SideNav Title -->
-    <mat-toolbar>Menu</mat-toolbar>
+    <mat-toolbar class="side-nav-title">Menu</mat-toolbar>
+    <hr>
 
     <!-- Navigation link list -->
     <mat-nav-list>
-      <!-- <a mat-list-item [routerLink]="['']"> -->
       <a mat-list-item href="#intro">
         <mat-icon>home</mat-icon>
         <span>Home</span>
       </a>
-      <!-- <a mat-list-item [routerLink]="['about']"> -->
       <a mat-list-item href="#about">
         <mat-icon>contacts</mat-icon>
         <span>About</span>
       </a>
-      <!-- <a mat-list-item [routerLink]="['contact']"> -->
       <a mat-list-item href="#contact">
         <mat-icon>email</mat-icon>
         <span>Contact</span>
@@ -48,7 +46,7 @@
       <!-- SideNav button toggle -->
       <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()"
         *ngIf="isHandset$ | async">
-        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+        <mat-icon class="mat-icon-menu" aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
 
       <!-- Toolbar title -->
