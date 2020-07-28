@@ -3,20 +3,24 @@
   <!-- SideNav -->
   <mat-sidenav #drawer class="sidenav" fixedInViewport [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
     [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">
+
+    <!-- SideNav Title -->
     <mat-toolbar>Menu</mat-toolbar>
 
     <!-- Navigation link list -->
     <mat-nav-list>
-      <a mat-list-item [routerLink]="['']">
+      <!-- <a mat-list-item [routerLink]="['']"> -->
       <a mat-list-item href="#intro">
         <mat-icon>home</mat-icon>
         <span>Home</span>
       </a>
-      <a mat-list-item [routerLink]="['about']">
+      <!-- <a mat-list-item [routerLink]="['about']"> -->
+      <a mat-list-item href="#about">
         <mat-icon>contacts</mat-icon>
         <span>About</span>
       </a>
-      <a mat-list-item [routerLink]="['contact']">
+      <!-- <a mat-list-item [routerLink]="['contact']"> -->
+      <a mat-list-item href="#contact">
         <mat-icon>email</mat-icon>
         <span>Contact</span>
       </a>
@@ -28,12 +32,10 @@
       <a mat-list-item href="https://github.com/VinceVitale" target="_blank">
         <mat-icon svgIcon="github"></mat-icon>
         <span>GitHub</span>
-        <mat-icon>exit_to_app</mat-icon>
       </a>
       <a mat-list-item href="https://www.linkedin.com/in/vincedvitale/" target="_blank">
         <mat-icon svgIcon="linkedin"></mat-icon>
         <span>LinkedIn</span>
-        <mat-icon>exit_to_app</mat-icon>
       </a>
     </mat-nav-list>
 

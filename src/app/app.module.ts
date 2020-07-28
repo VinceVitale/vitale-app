@@ -16,6 +16,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { HttpClientModule } from "@angular/common/http";
 import { ResumeComponent } from './resume/resume.component';
+import { MatGridListModule } from '@angular/material/grid-list';
 import { IntroComponent } from './intro/intro.component';
 
 @NgModule({
@@ -38,7 +39,7 @@ import { IntroComponent } from './intro/intro.component';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    HttpClientModule
+    HttpClientModule,
     MatGridListModule
   ],
   providers: [],
