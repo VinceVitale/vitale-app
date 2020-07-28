@@ -25,7 +25,7 @@ import { IntroComponent } from './intro/intro.component';
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    ResumeComponent
+    ResumeComponent,
     IntroComponent
   ],
   imports: [
@@ -39,6 +39,7 @@ import { IntroComponent } from './intro/intro.component';
     MatIconModule,
     MatListModule,
     HttpClientModule
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
