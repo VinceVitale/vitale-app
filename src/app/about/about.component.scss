@@ -1,0 +1,23 @@
+.mat-grid-tile-header {
+    font-size: 25px;
+}
+
+.bg-img {
+    width: 100%;
+    height: fill;
+    opacity: 30%;
+    z-index: -1;
+    position: relative;
+    min-height: 578px;
+    max-height: 936px;
+}
+
+.mat-grid-list {
+    min-height: 578px;
+    max-height: 936px;
+}
+
+.mat-list-item {
+    padding-left: 10%;
+    width: 80%;
+}
