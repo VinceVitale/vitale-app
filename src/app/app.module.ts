@@ -16,6 +16,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { HttpClientModule } from "@angular/common/http";
 import { ResumeComponent } from './resume/resume.component';
+import { IntroComponent } from './intro/intro.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { ResumeComponent } from './resume/resume.component';
     AboutComponent,
     ContactComponent,
     ResumeComponent
+    IntroComponent
   ],
   imports: [
     BrowserModule,
