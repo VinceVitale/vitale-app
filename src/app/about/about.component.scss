@@ -4,7 +4,7 @@
 
 .bg-img {
     width: 100%;
-    height: fill;
+    height: stretch;
     opacity: 30%;
     z-index: -1;
     position: relative;
@@ -20,9 +20,4 @@
 .mat-list-item {
     padding-left: 10%;
     width: 80%;
-}
-
-.aboutinfo {
-    display: absolute;
-    width: 555px;
 }
