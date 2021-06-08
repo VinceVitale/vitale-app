@@ -1,4 +1,8 @@
-# VitaleApp
+# Vince Vitale Personal Portfolio
+
+This application was created to offer a presentational array of my current completed projects and skills to employers and peers.
+
+---
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
 
